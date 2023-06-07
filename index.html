@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Battlefield 2042 Survey Form
+  </title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">Battlefield 2042 Survey Form
+      </h1>
+      <p id="description">Please take the time to take this survey
+      <p>
+    </header>
+
+    <form class="survey-form" method="post" action='https://register-demo.freecodecamp.org' id="survey-form">
+      <div class="Form">
+        <div>
+
+          <label id="name-label">Name</label>
+          <input id="name" class="form-control" type="text" required placeholder="Enter your name">
+        </div>
+        <div>
+
+          <label id="email-label">Email</label><input class="form-control" id="email" type="email" required placeholder="Enter your email">
+        </div>
+        <div>
+
+          <label id="number-label">Age</label>
+          <input class="form-control" id="number" type="number" min="13" max="120" placeholder="Age">
+        </div>
+      </div>
+      <div>
+        <p>Which class do you prefer to play for?
+        </p>
+        <select class="form-control" id="dropdown">
+
+
+    <option value="">Select current class</option>
+    <option value="Assault">Assault</option>
+    <option value="Engineer">Engineer</option>
+        <option value="Support">Support</option>
+  
+      <option value="Recon">Recon</option>
+    </div>
+    </select>
+        <div>
+          <p>Would you recommend battlefield 2042 to a friend?</p>
+          <div>
+            <label><input class="input-radio" type="radio" value="Yes" name="user-recommend">Yes</label>
+          </div>
+          <div>
+            <label><input class="input-radio" type="radio" value="Maybe" name="user-recommend">Maybe</label>
+          </div>
+          <div>
+            <label><input class="input-radio" type="radio" value="No" name="user-recommend">No</label>
+          </div>
+
+
+        </div>
+        <div>
+          <p>What is your favorite weapons section?</p>
+          <select id="dropdown" class="form-control">
+
+        <option value="">Select an option</option>
+        <option value="Submachine-Guns">Submachine Guns	
+</option>
+        <option value="Assault Rifles	">Assault Rifles	
+	
+</option>
+        <option value="Light Machine Guns">Light Machine Guns	
+</option>
+        <option value="Designated Marksman Rifles	">Designated Marksman Rifles	
+</option>
+        <option value="Sniper Rifles">Sniper Rifles	
+</option>
+        <option value="Tactical Weapons">Tactical Weapons	
+	
+</option>
+        </select>
+        </div>
+        <div>
+          <p>Which is your favorite maps? (Check all that apply)</p>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Breakaway">Breakaway</label>
+          </div>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Discarded">Discarded</label>
+          </div>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Hourglass">Hourglass</label>
+          </div>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Kaleidoscope">Kaleidoscope</label>
+          </div>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Manifest">Manifest
+</label>
+          </div>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Orbital">Orbital</label>
+          </div>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Renewal">Renewal</label>
+          </div>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Exposure">Exposure</label>
+          </div>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Stranded">Stranded</label>
+          </div>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Spearhead">Spearhead</label>
+          </div>
+          <div>
+            <label><input class="input-checkbox" type="checkbox" value="Flashpoint">Flashpoint</label>
+          </div>
+
+
+        </div>
+        <p>Any comments or suggestions?
+        <p>
+
+
+        <div>
+          <textarea  rows="8" cols="50" placeholder="enter your comment here" class="form-control textarea" ></textarea>
+        </div>
+        <input class="submit-botton" type="submit" id="submit">
+    </form>
+  </div>
